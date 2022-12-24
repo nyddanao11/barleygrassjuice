@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+#landing{
+	display: flex;
+	padding-left: 10px;
+	width: 100%;
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+.color{
+	color:#0D900B;
+	font-size: 40px;
+}
+
+.color01{
+	color:#F94E3E;
+}
+
+#landing .benefits{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+   width:50%;
+	position: relative;
+}
+
+#landing .benefits .buy{
+	justify-content: center;
+  padding-top: 10px
+ position: absolute;
+
+}
+
+.button:hover{
+			color:#818E81;
+			background-color: #79D479;
+}
+
+.button{
+  background-color: #05981d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#landing .cont {
+	justify-content: space-evenly;
+	position: relative;
+	width: 100%;
+}
+
+img{
+
+	width: 400px;
+	height:400px;
+	padding-top: 30px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+#foot {
+  text-align: center;
+	display: inline-block;
+  justify-content: space-between;
+  width:50%;
+	position: relative;
+	top: 40px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	border: none;
+	background-color: #FDD30C;
+	margin-left: 25%;
+}
+
+
+
